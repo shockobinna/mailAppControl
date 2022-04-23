@@ -13,9 +13,9 @@
             type="text"
             class="form-control"
             name=""
-            id=""
             aria-describedby="helpId"
-            placeholder=""
+            placeholder="nome"
+            v-model="nome"
           />
         </div>
         <div class="form-group text-primary">
@@ -24,18 +24,17 @@
             type="password"
             class="form-control"
             name=""
-            id=""
             aria-describedby="helpId"
-            placeholder=""
+            placeholder="senha"
+            v-model="senha"
           />
         </div>
 
-        <button type="button" class="btn btn-outline-primary">Login</button>
+        <button type="button" class="btn btn-outline-primary" @click="login()">Login</button>
       </div>
       <div class="notMember text-center">
-        <a href="registrar.html"
-          >Não tem cadastro ainda? Clique para cadastrar</a
-        >
+        <router-link to="/signup">Não tem cadastro ainda? Clique para cadastrar</router-link>
+        
       </div>
     </div>
   </div>
@@ -43,10 +42,38 @@
 
 <script>
 import AppHeader from "./AppHeader.vue";
+import axios from 'axios'
 export default {
   components: {
     AppHeader,
   },
+   data() {
+     return {
+       nome:"",
+       senha:"",
+       
+     }
+   },
+
+   methods: {
+    async login(){
+        let res = await axios.get(`http://localhost:3000/users?nome=${this.nome}&&senha=${this.senha}`)
+         if(res.status==200 && res.data.length>0){
+           localStorage.setItem("user-info", JSON.stringify(res.data[0]))
+           this.$router.push({name:'Dashboard'})
+         }
+         
+     }
+     
+    
+   },
+   mounted() {
+      let user = localStorage.getItem("user-info")
+      if(user){
+          this.$router.push({name:'Dashboard'})
+      }
+  },
+  
 };
 </script>
 

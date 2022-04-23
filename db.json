@@ -1,72 +1,12 @@
 {
   "blocoA": [
     {
-      "nome": "becky",
-      "apartamento": "10",
-      "quantidade": 3,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
-        }
-      ],
-      "id": 2
-    },
-    {
-      "nome": "nini",
-      "apartamento": "45",
-      "quantidade": 2,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
-        }
-      ],
-      "id": 3
-    },
-    {
-      "nome": "kikini",
-      "apartamento": "05",
-      "quantidade": 1,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
-        }
-      ],
-      "id": 4
-    },
-    {
-      "nome": "zuzu",
-      "apartamento": "07",
-      "quantidade": 6,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
-        }
-      ],
-      "id": 5
-    },
-    {
-      "nome": "michele silva da conceição Goes David",
+      "nome": "michele silva da conceição Goes David okorie update",
       "apartamento": "106",
       "quantidade": 6,
       "bloco": "Bloco A",
       "encomenda": [
-        {
-          "data_recebida": "2022-02-02",
-          "codigo": 0,
-          "receptor": "David"
-        }
+        {}
       ],
       "id": 6
     },
@@ -81,8 +21,8 @@
       "id": 8
     },
     {
-      "nome": "Baby Luisa chioma silva okorie",
-      "apartamento": "106",
+      "nome": "David Okorie nwokeoma",
+      "apartamento": "6",
       "quantidade": 1,
       "bloco": "Bloco A",
       "encomenda": [
@@ -91,110 +31,480 @@
       "id": 9
     },
     {
-      "nome": "abc",
-      "apartamento": "123",
+      "nome": "Okorie nwokeoma",
+      "apartamento": "10",
       "quantidade": 1,
       "bloco": "Bloco A",
       "encomenda": [
         {}
+      ],
+      "id": 10
+    },
+    {
+      "nome": "Lekwuwa nwokeoma",
+      "apartamento": "56",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {}
+      ],
+      "id": 11
+    },
+    {
+      "nome": "David nwokeoma",
+      "apartamento": "11",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {}
+      ],
+      "id": 11
+    },
+    {
+      "nome": "michele silva da conceição Goes David okorie",
+      "apartamento": "106",
+      "quantidade": 6,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-02-02",
+          "codigo": 0,
+          "receptor": "David"
+        }
       ],
       "id": 12
     },
     {
-      "nome": "giveit",
-      "apartamento": "456",
-      "quantidade": 1,
+      "nome": "michele silva da conceição Goes David okorie",
+      "apartamento": "106",
+      "quantidade": 6,
       "bloco": "Bloco A",
       "encomenda": [
-        {}
+        {
+          "data_recebida": "2022-02-02",
+          "codigo": 0,
+          "receptor": "David"
+        }
       ],
       "id": 13
     },
     {
-      "nome": "grace",
-      "apartamento": "123",
-      "quantidade": 1,
+      "nome": "michele silva da conceição Goes David okorie miguel luisa",
+      "apartamento": "106",
+      "quantidade": 6,
       "bloco": "Bloco A",
       "encomenda": [
-        {
-          "data_recebida": "2022-02-15",
-          "codigo": 58585959595,
-          "receptor": "hana"
-        }
+        {}
       ],
       "id": 15
     },
     {
-      "nome": "werd",
-      "apartamento": "126",
-      "quantidade": 1,
+      "nome": "michele silva da conceição Goes David okorie",
+      "apartamento": "106",
+      "quantidade": 6,
       "bloco": "Bloco A",
       "encomenda": [
         {
-          "data_recebida": "2022-02-07",
-          "codigo": 9877654,
-          "receptor": "dfvrt"
+          "data_recebida": "2022-02-02",
+          "codigo": 0,
+          "receptor": "David"
         }
       ],
       "id": 16
     },
     {
-      "nome": "come on",
-      "apartamento": "456",
-      "quantidade": 1,
+      "nome": "michele silva da conceição Goes David okorie another ",
+      "apartamento": "106",
+      "quantidade": 6,
       "bloco": "Bloco A",
       "encomenda": [
         {
-          "data_recebida": "2022-02-04",
-          "codigo": 78999999,
-          "receptor": "fcty"
+          "data_recebida": "2022-02-02",
+          "codigo": 0,
+          "receptor": "David"
         }
       ],
       "id": 17
     },
     {
-      "nome": "miguel obinna",
+      "nome": "davido",
       "apartamento": "106",
       "quantidade": 1,
       "bloco": "Bloco A",
       "encomenda": [
         {
-          "data_recebida": "2022-02-24",
-          "codigo": 7888888888,
-          "receptor": "mom"
+          "data_recebida": "2022-04-20",
+          "codigo": 8888888,
+          "receptor": "michele"
         }
       ],
       "id": 18
+    },
+    {
+      "nome": "morador a",
+      "apartamento": "89",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-20",
+          "codigo": 678899,
+          "receptor": "jn"
+        }
+      ],
+      "id": 19
+    },
+    {
+      "nome": "mr a",
+      "apartamento": "",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-17",
+          "codigo": 9,
+          "receptor": "m"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "nome": "uuuuuu",
+      "apartamento": "55",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-18",
+          "codigo": 9,
+          "receptor": "fg"
+        }
+      ],
+      "id": 21
+    },
+    {
+      "nome": "meaga",
+      "apartamento": "1",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 1,
+          "receptor": "1"
+        }
+      ],
+      "id": 22
+    },
+    {
+      "nome": "mor",
+      "apartamento": "40",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-21",
+          "codigo": 666778788,
+          "receptor": "tati"
+        }
+      ],
+      "id": 23
+    },
+    {
+      "nome": "VVVVV",
+      "apartamento": "65",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-20",
+          "codigo": 999,
+          "receptor": "NJNK"
+        }
+      ],
+      "id": 24
+    },
+    {
+      "nome": "divine",
+      "apartamento": "3",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-21",
+          "codigo": 1,
+          "receptor": "rg"
+        }
+      ],
+      "id": 25
+    },
+    {
+      "nome": "nne",
+      "apartamento": "89",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-21",
+          "codigo": 2,
+          "receptor": "tyu"
+        }
+      ],
+      "id": 26
+    },
+    {
+      "nome": "bianca",
+      "apartamento": "90",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-20",
+          "codigo": 6,
+          "receptor": "v"
+        }
+      ],
+      "id": 27
+    },
+    {
+      "nome": "mercy",
+      "apartamento": "77",
+      "quantidade": 1,
+      "bloco": "Bloco A",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-21",
+          "codigo": 5,
+          "receptor": "bv"
+        }
+      ],
+      "id": 28
+    },
+    {
+      "nome": "cual",
+      "apartamento": "34",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-22",
+          "codigo": 90,
+          "receptor": "ret"
+        }
+      ],
+      "id": 29
     }
   ],
   "blocoB": [
     {
-      "nome": "bail",
-      "apartamento": "10",
+      "nome": "Delilah",
+      "apartamento": "90",
       "quantidade": 1,
       "bloco": "Bloco B",
       "encomenda": [
         {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
+          "data_recebida": "2022-03-09",
+          "codigo": 909900,
+          "receptor": "dan"
         }
       ],
-      "id": 1
+      "id": 3
     },
     {
-      "nome": "bbbbbbu",
-      "apartamento": "56",
+      "nome": "morador b",
+      "apartamento": "23",
       "quantidade": 1,
       "bloco": "Bloco B",
       "encomenda": [
         {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
+          "data_recebida": "2022-04-20",
+          "codigo": 6666666,
+          "receptor": "frank"
         }
       ],
-      "id": 2
+      "id": 4
+    },
+    {
+      "nome": "more",
+      "apartamento": "55",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-12",
+          "codigo": 44444,
+          "receptor": "rt"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nome": "bebel",
+      "apartamento": "23",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-13",
+          "codigo": 4555,
+          "receptor": "fr"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nome": "B5",
+      "apartamento": "77",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-11",
+          "codigo": 7777,
+          "receptor": "hj"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nome": "B6",
+      "apartamento": "33",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-11",
+          "codigo": 6666788,
+          "receptor": "nm"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "nome": "mr big",
+      "apartamento": "4",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 5555,
+          "receptor": "kl"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "nome": "ms biga",
+      "apartamento": "6",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-05",
+          "codigo": 4,
+          "receptor": "n"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "nome": "another 0ne",
+      "apartamento": "7",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-18",
+          "codigo": 222,
+          "receptor": "q"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "nome": "next",
+      "apartamento": "34",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-18",
+          "codigo": 99,
+          "receptor": "h"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "nome": "noooooo",
+      "apartamento": "444",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-16",
+          "codigo": 55,
+          "receptor": "po"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "nome": "nbbbb",
+      "apartamento": "78",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 78,
+          "receptor": "h"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "nome": "bbbbbbbbbbbbbbbbbbbb",
+      "apartamento": "1",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 1,
+          "receptor": "1"
+        }
+      ],
+      "id": 15
+    },
+    {
+      "nome": "llllllllllllllllllllllllllll",
+      "apartamento": "34",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 1,
+          "receptor": "1"
+        }
+      ],
+      "id": 16
+    },
+    {
+      "nome": "diego",
+      "apartamento": "11",
+      "quantidade": 1,
+      "bloco": "Bloco B",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-22",
+          "codigo": 56,
+          "receptor": "David"
+        }
+      ],
+      "id": 17
     }
   ],
   "blocoC": [
@@ -205,40 +515,429 @@
       "bloco": "Bloco C",
       "encomenda": [
         {
-          "data_recebida": "",
+          "data_recebida": "2022-04-12",
           "codigo": 0,
-          "receptor": ""
+          "receptor": "VIL"
         }
       ],
       "id": 2
     },
     {
-      "nome": "Duda",
-      "apartamento": "106",
+      "nome": "morador c",
+      "apartamento": "10",
       "quantidade": 1,
       "bloco": "Bloco C",
       "encomenda": [
         {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
+          "data_recebida": "2022-04-19",
+          "codigo": 777777,
+          "receptor": "gog"
         }
       ],
       "id": 3
     },
     {
-      "nome": "crcrerr",
-      "apartamento": "98",
+      "nome": "miss c",
+      "apartamento": "67",
       "quantidade": 1,
       "bloco": "Bloco C",
       "encomenda": [
         {
-          "data_recebida": "",
-          "codigo": 0,
-          "receptor": ""
+          "data_recebida": "2022-04-18",
+          "codigo": 999,
+          "receptor": "gh"
         }
       ],
       "id": 4
+    },
+    {
+      "nome": "bloc c",
+      "apartamento": "65",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-14",
+          "codigo": 4444,
+          "receptor": "hg"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nome": "bvd",
+      "apartamento": "9",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 222,
+          "receptor": "vc"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nome": "another c",
+      "apartamento": "23",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-18",
+          "codigo": 5,
+          "receptor": "d"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nome": "cccccccccccccccc",
+      "apartamento": "100",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-20",
+          "codigo": 67,
+          "receptor": "x"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "nome": "num8",
+      "apartamento": "34",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 78,
+          "receptor": "nm"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "nome": "cucucu",
+      "apartamento": "89",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-18",
+          "codigo": 4,
+          "receptor": "78h"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "nome": "vcvcvc",
+      "apartamento": "1",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-17",
+          "codigo": 4,
+          "receptor": "uji"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "nome": "vvvvvvvvvvvvvvvvv",
+      "apartamento": "4",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 1,
+          "receptor": "1"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "nome": "please",
+      "apartamento": "1",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-19",
+          "codigo": 1,
+          "receptor": "1"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "nome": "NOMEc",
+      "apartamento": "106",
+      "quantidade": 1,
+      "bloco": "Bloco C",
+      "encomenda": [
+        {
+          "data_recebida": "2022-04-22",
+          "codigo": 44,
+          "receptor": "sw"
+        }
+      ],
+      "id": 14
+    }
+  ],
+  "encomendaEntregadaBlocoA": [
+    {
+      "id": 0,
+      "nome": "",
+      "codigo": "",
+      "data_entregada": ""
+    },
+    {
+      "nome": "michele silva da conceição Goes David okorie",
+      "codigo": 0,
+      "data_entregada": "2022-02-02",
+      "id": 1
+    },
+    {
+      "nome": "becky",
+      "codigo": 0,
+      "id": 2
+    },
+    {
+      "nome": "becky",
+      "codigo": 0,
+      "data_entregada": "",
+      "id": 3
+    },
+    {
+      "nome": "nini",
+      "codigo": 0,
+      "data_entregada": "",
+      "id": 4
+    },
+    {
+      "nome": "grace",
+      "codigo": 58585959595,
+      "data_entregada": "",
+      "id": 5
+    },
+    {
+      "nome": "zuzu",
+      "codigo": 0,
+      "data_entregada": "",
+      "id": 6
+    },
+    {
+      "nome": "becky",
+      "codigo": 0,
+      "data_entregada": "",
+      "id": 7
+    },
+    {
+      "nome": "midnight",
+      "codigo": 44444,
+      "data_entregada": "2022-03-20",
+      "id": 8
+    },
+    {
+      "nome": "nini",
+      "codigo": 0,
+      "data_entregada": "2022-03-20",
+      "id": 9
+    },
+    {
+      "nome": "abc",
+      "data_entregada": "2022-03-20",
+      "id": 10
+    },
+    {
+      "nome": "yutyuuyuu",
+      "data_entregada": "2022-03-20",
+      "id": 11
+    },
+    {
+      "nome": "TRYMEM",
+      "data_entregada": "2022-03-20",
+      "id": 12
+    },
+    {
+      "nome": "midnight",
+      "codigo": 44444,
+      "data_entregada": "2022-03-20",
+      "id": 13
+    },
+    {
+      "nome": "kikini",
+      "codigo": 0,
+      "data_entregada": "2022-03-20",
+      "id": 14
+    },
+    {
+      "nome": "giveit",
+      "data_entregada": "2022-03-20",
+      "id": 15
+    },
+    {
+      "nome": "drink",
+      "codigo": 677,
+      "data_entregada": "2022-03-20",
+      "id": 16
+    },
+    {
+      "nome": "drink",
+      "codigo": 677,
+      "data_entregada": "2022-03-20",
+      "id": 17
+    },
+    {
+      "nome": "night",
+      "data_entregada": "2022-03-20",
+      "id": 18
+    },
+    {
+      "nome": "fly into me",
+      "data_entregada": "2022-03-20",
+      "id": 19
+    },
+    {
+      "nome": "igbu amu",
+      "codigo": 777777,
+      "data_entregada": "2022-03-20",
+      "id": 20
+    },
+    {
+      "nome": "kiss me goodbye",
+      "data_entregada": "2022-03-20",
+      "id": 21
+    },
+    {
+      "nome": "werd",
+      "codigo": 9877654,
+      "data_entregada": "2022-03-20",
+      "id": 22
+    },
+    {
+      "nome": "werd",
+      "codigo": 9877654,
+      "data_entregada": "2022-03-20",
+      "id": 23
+    },
+    {
+      "nome": "dream come true",
+      "codigo": 67788899,
+      "data_entregada": "2022-03-20",
+      "id": 24
+    },
+    {
+      "nome": "come on",
+      "codigo": 78999999,
+      "data_entregada": "2022-03-20",
+      "id": 25
+    },
+    {
+      "nome": "grace",
+      "codigo": 58585959595,
+      "data_entregada": "2022-03-20",
+      "id": 26
+    },
+    {
+      "nome": "kiss me again",
+      "data_entregada": "2022-03-20",
+      "id": 27
+    },
+    {
+      "nome": "Angel",
+      "codigo": 45566777,
+      "data_entregada": "2022-03-20",
+      "id": 28
+    },
+    {
+      "nome": "zuzu",
+      "codigo": 0,
+      "data_entregada": "2022-03-21",
+      "id": 29
+    },
+    {
+      "nome": "Baby Luisa chioma silva okorie",
+      "data_entregada": "2022-03-21",
+      "id": 30
+    },
+    {
+      "nome": "becky",
+      "codigo": 0,
+      "data_entregada": "2022-03-21",
+      "id": 31
+    },
+    {
+      "nome": "miguel obinna",
+      "codigo": 7888888888,
+      "data_entregada": "2022-03-21",
+      "id": 32
+    }
+  ],
+  "encomendaEntregadaBlocoB": [
+    {
+      "id": 0,
+      "nome": "",
+      "codigo": "",
+      "data_entregada": ""
+    },
+    {
+      "nome": "BMAN",
+      "codigo": 788,
+      "data_entregada": "2022-03-20",
+      "id": 1
+    }
+  ],
+  "encomendaEntregadaBlocoC": [
+    {
+      "id": 0,
+      "nome": "",
+      "codigo": "",
+      "data_entregada": ""
+    },
+    {
+      "nome": "CMAN",
+      "codigo": 78,
+      "data_entregada": "2022-03-20",
+      "id": 1
+    },
+    {
+      "nome": "CMAN",
+      "codigo": 78,
+      "data_entregada": "2022-03-20",
+      "id": 2
+    },
+    {
+      "nome": "DudaDOOO",
+      "data_entregada": "2022-03-20",
+      "id": 3
+    },
+    {
+      "nome": "crcrerr",
+      "codigo": 0,
+      "data_entregada": "2022-03-20",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "nome": "",
+      "senha": "",
+      "email": ""
+    },
+    {
+      "nome": "David",
+      "senha": "david",
+      "email": "davidokorie59@gmail.com",
+      "id": 1
     }
   ]
 }

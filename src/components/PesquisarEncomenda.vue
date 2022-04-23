@@ -12,7 +12,14 @@
           >Encomenda não encontrada para apartamento {{ apartamen }}</strong
         >
       </div>
-      <h1><i class="fa fa-cart-plus" aria-hidden="true"></i></h1>
+      <div class="d-flex justify-content-between">
+        <h1><i class="fa fa-cart-plus" aria-hidden="true"></i></h1>
+        <button class="btn btn-primary ml-2 mt-3" @click="$router.go(-1)">
+        <i class="fa fa-reply " aria-hidden="true"></i>
+        Retornar
+      </button>
+      
+      </div>
 
       <div class="tablelist mt-3">
         <table class="table table-hover table-sm">
@@ -106,18 +113,20 @@
               </div>
               <div class="form-group">
                 <i class="fa fa-gift" aria-hidden="true"></i>
+                
                 <input
                   type="number"
                   class="form-control"
                   id="recipient-name"
                   v-model="quantidade"
+                  readonly
                 />
                 <label for="recipient-name" class="col-form-label"
                   >Quantidade de Encomenda</label
                 >
               </div>
               <div class="form-group">
-                <i class="fa fa-gift" aria-hidden="true"></i>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
                 <input
                   type="date"
                   class="form-control"
@@ -129,7 +138,7 @@
                 >
               </div>
               <div class="form-group">
-                <i class="fa fa-gift" aria-hidden="true"></i>
+                <i class="fa fa-barcode" aria-hidden="true"></i>
                 <input
                   type="number"
                   class="form-control"
@@ -141,7 +150,7 @@
                 >
               </div>
               <div class="form-group">
-                <i class="fa fa-gift" aria-hidden="true"></i>
+                <i class="fa fa-male" aria-hidden="true"></i>
                 <input
                   type="text"
                   class="form-control"
@@ -162,7 +171,7 @@
               type="button"
               class="btn btn-primary"
               data-dismiss="modal"
-              @click.prevent="update()"
+              @click.prevent="change()"
             >
               Salvar
             </button>
@@ -175,7 +184,7 @@
 
 <script>
 import AppHeader from "./AppHeader.vue";
-import axios from "axios";
+// import axios from "axios";
 // const baseAURL = "http://localhost:3000/blocoA";
 // const baseBURL = "http://localhost:3000/blocoB";
 // const baseCURL = "http://localhost:3000/blocoC";
@@ -186,8 +195,8 @@ export default {
   },
   data() {
     return {
-      apartamen: "",
-      bloco: "",
+      apartamen: this.$route.query.apartamento,
+      bloco: this.$route.query.bloco,
       EncomendaMorador: [],
       id: 0,
       apartamento: "",
@@ -199,47 +208,70 @@ export default {
       nencome: {},
     };
   },
-  created() {
-    this.apartamen = this.$route.query.apartamento;
-    this.bloco = this.$route.query.bloco;
-    console.log(this.$route.query.apartamento);
-    //  console.log(this.ncomenda)
-
-    try {
+  mounted() {
+    
       if (this.apartamen != "" && this.bloco == "Bloco A") {
-        axios
-          .get(
-            `http://localhost:3000/blocoA?apartamento=${this.apartamen}&&bloco=${this.bloco}`
-          )
-          .then((response) => {
-            //console.log(response.data);
-            this.EncomendaMorador = response.data;
-          });
+        let payload ={x:this.apartamen,y:this.bloco}
+        this.$store.dispatch("getEncomendaA", payload)
+        
+        this.EncomendaMorador = this.getEncomendaMoradorA
+        
+
+       console.log(this.EncomendaMorador);
+       
+       
+       
+        
       } else if (this.apartamen != "" && this.bloco == "Bloco B") {
-        axios
-          .get(
-            `http://localhost:3000/blocoB?apartamento=${this.apartamen}&&bloco=${this.bloco}`
-          )
-          .then((response) => {
-            //console.log(response.data);
-            this.EncomendaMorador = response.data;
-          });
+         let payload ={x:this.apartamen,y:this.bloco}
+        this.$store.dispatch("getEncomendaB", payload)
+        
+
+        this.EncomendaMorador = this.getEncomendaMoradorB
+        
       } else {
-        axios
-          .get(
-            `http://localhost:3000/blocoC?apartamento=${this.apartamen}&&bloco=${this.bloco}`
-          )
-          .then((response) => {
-            //console.log(response.data);
-            this.EncomendaMorador = response.data;
-          });
+        let payload ={x:this.apartamen,y:this.bloco}
+        this.$store.dispatch("getEncomendaC", payload)
+        
+
+        this.EncomendaMorador = this.getEncomendaMoradorC
       }
-    } catch (e) {
-      console.error(e);
+    
+
+      this.apartamen = "", 
+      this.bloco = ""
+      this.EncomendaMorador =""
+      
+      
+  },
+  computed: {
+    getEncomendaMoradorA(){
+    return this.$store.state.encomendaA
+    },
+    getEncomendaMoradorB(){
+      return this.$store.state.encomendaB
+    },
+    getEncomendaMoradorC(){
+      return this.$store.state.encomendaC
     }
 
-    (this.apartamen = ""), (this.bloco = "");
   },
+
+  watch: {
+      getEncomendaMoradorA(){
+        this.EncomendaMorador = this.getEncomendaMoradorA
+      },
+      getEncomendaMoradorB(){
+        this.EncomendaMorador = this.getEncomendaMoradorB
+      },
+      getEncomendaMoradorC(){
+        this.EncomendaMorador = this.getEncomendaMoradorC
+      }
+      
+      },
+      
+      
+    
   methods: {
     editarEncomenda(encomenda) {
       this.nencome = encomenda;
@@ -253,6 +285,7 @@ export default {
         (this.data_recebida = encomenda.encomenda[0].data_recebida);
       this.receptor = encomenda.encomenda[0].receptor;
     },
+  
     async deleteEncomenda(encomenda) {
       this.bloco = "";
       this.id = encomenda.id;
@@ -260,24 +293,26 @@ export default {
       this.bloco = encomenda.bloco;
       try {
         if (this.id != "" && this.bloco == "Bloco A") {
-          axios.delete(`http://localhost:3000/blocoA/${this.id}`);
+          this.$store.dispatch("deleteA",this.id)
           this.$router.go();
+
         } else if (this.id != "" && this.bloco == "Bloco B") {
-          axios.delete(`http://localhost:3000/blocoB/${this.id}`);
+          this.$store.dispatch("deleteB",this.id)
           this.$router.go();
+
         } else {
-          axios.delete(`http://localhost:3000/blocoC/${this.id}`);
+          this.$store.dispatch("deleteC",this.id)
           this.$router.go();
         }
       } catch (e) {
         console.error(e);
       }
     },
-    update() {
+    change() {
       console.log(this.id);
       try {
         if (this.bloco == "Bloco A") {
-          axios.put(`http://localhost:3000/blocoA/${this.id}`, {
+         let payload ={
             nome: this.morador,
             apartamento: this.apartamento,
             quantidade: this.quantidade,
@@ -289,17 +324,13 @@ export default {
                 receptor: this.receptor,
               },
             ],
-          });
-          axios
-            .get(
-              `http://localhost:3000/blocoA?apartamento=${this.apartamento}&&bloco=${this.bloco}`
-            )
-            .then((response) => {
-              console.log(response.data);
-              this.EncomendaMorador = response.data;
-            });
-        } else if (this.bloco == "Bloco B") {
-          axios.put(`http://localhost:3000/blocoB/${this.id}`, {
+            id: this.id
+          }
+          
+          this.$store.dispatch("updateA",payload)
+          this.$router.go()
+    }else if (this.bloco == "Bloco B") {
+         let payload ={
             nome: this.morador,
             apartamento: this.apartamento,
             quantidade: this.quantidade,
@@ -311,17 +342,13 @@ export default {
                 receptor: this.receptor,
               },
             ],
-          });
-          axios
-            .get(
-              `http://localhost:3000/blocoB?apartamento=${this.apartamento}&&bloco=${this.bloco}`
-            )
-            .then((response) => {
-              console.log(response.data);
-              this.EncomendaMorador = response.data;
-            });
-        } else {
-          axios.put(`http://localhost:3000/blocoC/${this.id}`, {
+            id: this.id
+          }
+          
+          this.$store.dispatch("updateB",payload)
+          this.$router.go()
+    } else{
+      let payload ={
             nome: this.morador,
             apartamento: this.apartamento,
             quantidade: this.quantidade,
@@ -333,22 +360,21 @@ export default {
                 receptor: this.receptor,
               },
             ],
-          });
-          axios
-            .get(
-              `http://localhost:3000/blocoC?apartamento=${this.apartamento}&&bloco=${this.bloco}`
-            )
-            .then((response) => {
-              console.log(response.data);
-              this.EncomendaMorador = response.data;
-            });
-        }
-      } catch (e) {
+            id: this.id
+          }
+          
+          this.$store.dispatch("updateC",payload)
+          this.$router.go()
+    
+    }
+      
+    }catch (e) {
         console.error(e);
       }
-    },
-  },
-};
+  }
+}
+}
+
 </script>
 
 <style></style>

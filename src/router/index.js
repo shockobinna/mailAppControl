@@ -6,6 +6,7 @@ import BlocoB from "../components/BlocoB.vue";
 import BlocoC from "../components/BlocoC.vue";
 import Dashboard from "../components/Dashboard.vue";
 import Login from "../components/Login.vue";
+import SignUp from "../components/SignUp.vue";
 import PesquisarEncomenda from "../components/PesquisarEncomenda.vue";
 
 Vue.use(VueRouter);
@@ -42,20 +43,17 @@ const routes = [
     component: Login,
   },
   {
+    path: "/signup",
+    name: "SignUp",
+    component: SignUp,
+  },
+  {
     path: "/encomenda",
     name: "Encomenda",
     component: PesquisarEncomenda,
     props:true
   },
-  //{
-  //path: "/about",
-  //name: "About",
-  // route level code-splitting
-  // this generates a separate chunk (about.[hash].js) for this route
-  // which is lazy-loaded when the route is visited.
-  //component: () =>
-  //import(/* webpackChunkName: "about" */ "../views/About.vue"),
-  //},
+  
 ];
 
 const router = new VueRouter({

@@ -2,6 +2,12 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import VueApexCharts from 'vue-apexcharts'
+
+Vue.use(VueApexCharts)
+
+Vue.component('apexchart', VueApexCharts)
+
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
