@@ -224,9 +224,7 @@ export default {
   },
   methods: {
 
-    // forceRender() {
-    //   this.componentKey += 1;
-    // },
+    
     verBlocoA(){
       this.search =""
       this.blocos = this.getBlockA
@@ -310,10 +308,6 @@ export default {
       this.datosPaginados = this.blocos.slice(ini,fin) 
       console.log(this.datosPaginados)
       
-      // for (let index = ini; index < fin; index++) {
-      //   this.datosPaginados.push(this.filterEncomenda[index])
-        
-      // }
 
     },
     getPreviousPage(){
@@ -351,7 +345,5 @@ export default {
     box-shadow: none;
     
 }
-/* .card{
-  height: 410px;
-} */
+
 </style>

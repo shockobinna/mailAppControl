@@ -193,10 +193,7 @@ export default {
       
     },
     
-    // pesquisarAparta(ape){
-    //   this.aparta = ape
-    //   console.log(this.aparta)
-    // }
+    
     },
     
 };

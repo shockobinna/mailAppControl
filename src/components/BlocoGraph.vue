@@ -10,7 +10,7 @@
 
 <script>
 import VueApexCharts from 'vue-apexcharts'
-// import {mapGetters} from "vuex"
+
 export default {
 components: {
           apexchart: VueApexCharts,
@@ -74,7 +74,7 @@ components: {
     
     
         mounted() {
-          // this.series[0] = this.getTotal
+          
           this.$nextTick(() => {
         window.dispatchEvent(new Event('resize'));
     });
@@ -92,11 +92,6 @@ components: {
             }
       },
 
-// methods: {
-//   forceRender() {
-//       this.componentKey += 1;
-//     },
-// },
 
         
 }

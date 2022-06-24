@@ -10,9 +10,7 @@
               >
               <i class="fa fa-search"></i> 
   </router-link>
-  <!-- <a class="search-btn" href="#">
-    <i class="fa fa-search"></i>
-  </a> -->
+  
   </div>
 
   
@@ -27,11 +25,7 @@ export default {
       aparta:""
     }
   },
-  // methods: {
-  //   pesquise(){
-  //     this.$emit("pesquise",this.aparta)
-  //   }
-  // },
+  
 
 }
 </script>

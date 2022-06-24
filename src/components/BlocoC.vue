@@ -197,10 +197,7 @@ export default {
       this.encomenda.receptor=""
       
     },
-    // pesquisarAparta(ape){
-    //   this.aparta = ape
-    //   console.log(this.aparta)
-    // }
+    
     },
     
 };

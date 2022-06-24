@@ -184,10 +184,6 @@
 
 <script>
 import AppHeader from "./AppHeader.vue";
-// import axios from "axios";
-// const baseAURL = "http://localhost:3000/blocoA";
-// const baseBURL = "http://localhost:3000/blocoB";
-// const baseCURL = "http://localhost:3000/blocoC";
 
 export default {
   components: {
