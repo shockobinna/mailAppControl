@@ -70,7 +70,7 @@ export default {
   },
   methods: {
       async signUp(){
-          let res = await axios.post(" http://localhost:3000/users",{
+          let res = await axios.post(" http://localhost:3001/users",{
               nome:this.nome,
               senha:this.senha,
               email:this.email

@@ -206,7 +206,7 @@ export default {
   },
   mounted() {
     
-      if (this.apartamen != "" && this.bloco == "Bloco A") {
+      if (this.apartamen != "" && this.bloco == "blocoA") {
         let payload ={x:this.apartamen,y:this.bloco}
         this.$store.dispatch("getEncomendaA", payload)
         
@@ -218,7 +218,7 @@ export default {
        
        
         
-      } else if (this.apartamen != "" && this.bloco == "Bloco B") {
+      } else if (this.apartamen != "" && this.bloco == "blocoB") {
          let payload ={x:this.apartamen,y:this.bloco}
         this.$store.dispatch("getEncomendaB", payload)
         
@@ -288,16 +288,19 @@ export default {
       console.log(this.id);
       this.bloco = encomenda.bloco;
       try {
-        if (this.id != "" && this.bloco == "Bloco A") {
-          this.$store.dispatch("deleteA",this.id)
+        if (this.id != "" && this.bloco == "blocoA") {
+          let payload = {bloco:this.bloco,id:this.id}
+          this.$store.dispatch("deleteA", payload);
           this.$router.go();
 
-        } else if (this.id != "" && this.bloco == "Bloco B") {
-          this.$store.dispatch("deleteB",this.id)
+        } else if (this.id != "" && this.bloco == "blocoB") {
+          let payload = {bloco:this.bloco,id:this.id}
+          this.$store.dispatch("deleteA", payload);
           this.$router.go();
 
         } else {
-          this.$store.dispatch("deleteC",this.id)
+          let payload = {bloco:this.bloco,id:this.id}
+          this.$store.dispatch("deleteA", payload);
           this.$router.go();
         }
       } catch (e) {

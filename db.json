@@ -4,7 +4,7 @@
       "nome": "michele silva da conceição Goes David okorie update",
       "apartamento": "106",
       "quantidade": 6,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {}
       ],
@@ -14,7 +14,7 @@
       "nome": "Lekwuwa David Okorie nwokeoma",
       "apartamento": "106",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {}
       ],
@@ -24,47 +24,17 @@
       "nome": "David Okorie nwokeoma",
       "apartamento": "6",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {}
       ],
       "id": 9
     },
     {
-      "nome": "Okorie nwokeoma",
-      "apartamento": "10",
-      "quantidade": 1,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {}
-      ],
-      "id": 10
-    },
-    {
-      "nome": "Lekwuwa nwokeoma",
-      "apartamento": "56",
-      "quantidade": 1,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {}
-      ],
-      "id": 11
-    },
-    {
-      "nome": "David nwokeoma",
-      "apartamento": "11",
-      "quantidade": 1,
-      "bloco": "Bloco A",
-      "encomenda": [
-        {}
-      ],
-      "id": 11
-    },
-    {
       "nome": "michele silva da conceição Goes David okorie",
       "apartamento": "106",
       "quantidade": 6,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-02-02",
@@ -78,7 +48,7 @@
       "nome": "michele silva da conceição Goes David okorie",
       "apartamento": "106",
       "quantidade": 6,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-02-02",
@@ -92,7 +62,7 @@
       "nome": "michele silva da conceição Goes David okorie miguel luisa",
       "apartamento": "106",
       "quantidade": 6,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {}
       ],
@@ -102,7 +72,7 @@
       "nome": "michele silva da conceição Goes David okorie",
       "apartamento": "106",
       "quantidade": 6,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-02-02",
@@ -116,7 +86,7 @@
       "nome": "michele silva da conceição Goes David okorie another ",
       "apartamento": "106",
       "quantidade": 6,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-02-02",
@@ -130,7 +100,7 @@
       "nome": "davido",
       "apartamento": "106",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-20",
@@ -144,7 +114,7 @@
       "nome": "morador a",
       "apartamento": "89",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-20",
@@ -158,7 +128,7 @@
       "nome": "mr a",
       "apartamento": "",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-17",
@@ -172,7 +142,7 @@
       "nome": "uuuuuu",
       "apartamento": "55",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-18",
@@ -186,7 +156,7 @@
       "nome": "meaga",
       "apartamento": "1",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-19",
@@ -200,7 +170,7 @@
       "nome": "mor",
       "apartamento": "40",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-21",
@@ -214,7 +184,7 @@
       "nome": "VVVVV",
       "apartamento": "65",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-20",
@@ -228,7 +198,7 @@
       "nome": "divine",
       "apartamento": "3",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-21",
@@ -242,7 +212,7 @@
       "nome": "nne",
       "apartamento": "89",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-21",
@@ -256,7 +226,7 @@
       "nome": "bianca",
       "apartamento": "90",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-20",
@@ -270,7 +240,7 @@
       "nome": "mercy",
       "apartamento": "77",
       "quantidade": 1,
-      "bloco": "Bloco A",
+      "bloco": "blocoA",
       "encomenda": [
         {
           "data_recebida": "2022-04-21",
@@ -284,7 +254,7 @@
       "nome": "cual",
       "apartamento": "34",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-22",
@@ -293,6 +263,20 @@
         }
       ],
       "id": 29
+    },
+    {
+      "nome": "New encomenda",
+      "apartamento": "106",
+      "quantidade": 1,
+      "bloco": "blocoA",
+      "encomenda": [
+        {
+          "data_recebida": "2023-07-10",
+          "codigo": 56,
+          "receptor": "david"
+        }
+      ],
+      "id": 30
     }
   ],
   "blocoB": [
@@ -300,7 +284,7 @@
       "nome": "Delilah",
       "apartamento": "90",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-03-09",
@@ -314,7 +298,7 @@
       "nome": "morador b",
       "apartamento": "23",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-20",
@@ -325,24 +309,10 @@
       "id": 4
     },
     {
-      "nome": "more",
-      "apartamento": "55",
-      "quantidade": 1,
-      "bloco": "Bloco B",
-      "encomenda": [
-        {
-          "data_recebida": "2022-04-12",
-          "codigo": 44444,
-          "receptor": "rt"
-        }
-      ],
-      "id": 5
-    },
-    {
       "nome": "bebel",
       "apartamento": "23",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-13",
@@ -356,7 +326,7 @@
       "nome": "B5",
       "apartamento": "77",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-11",
@@ -370,7 +340,7 @@
       "nome": "B6",
       "apartamento": "33",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-11",
@@ -384,7 +354,7 @@
       "nome": "mr big",
       "apartamento": "4",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-19",
@@ -398,7 +368,7 @@
       "nome": "ms biga",
       "apartamento": "6",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-05",
@@ -412,7 +382,7 @@
       "nome": "another 0ne",
       "apartamento": "7",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-18",
@@ -426,7 +396,7 @@
       "nome": "next",
       "apartamento": "34",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-18",
@@ -437,38 +407,10 @@
       "id": 12
     },
     {
-      "nome": "noooooo",
-      "apartamento": "444",
-      "quantidade": 1,
-      "bloco": "Bloco B",
-      "encomenda": [
-        {
-          "data_recebida": "2022-04-16",
-          "codigo": 55,
-          "receptor": "po"
-        }
-      ],
-      "id": 13
-    },
-    {
-      "nome": "nbbbb",
-      "apartamento": "78",
-      "quantidade": 1,
-      "bloco": "Bloco B",
-      "encomenda": [
-        {
-          "data_recebida": "2022-04-19",
-          "codigo": 78,
-          "receptor": "h"
-        }
-      ],
-      "id": 14
-    },
-    {
       "nome": "bbbbbbbbbbbbbbbbbbbb",
       "apartamento": "1",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-19",
@@ -482,7 +424,7 @@
       "nome": "llllllllllllllllllllllllllll",
       "apartamento": "34",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-19",
@@ -496,7 +438,7 @@
       "nome": "diego",
       "apartamento": "11",
       "quantidade": 1,
-      "bloco": "Bloco B",
+      "bloco": "blocoB",
       "encomenda": [
         {
           "data_recebida": "2022-04-22",
@@ -505,6 +447,20 @@
         }
       ],
       "id": 17
+    },
+    {
+      "nome": "block b",
+      "apartamento": "21",
+      "quantidade": 1,
+      "bloco": "blocoB",
+      "encomenda": [
+        {
+          "data_recebida": "2023-07-10",
+          "codigo": 45,
+          "receptor": "yuuu"
+        }
+      ],
+      "id": 18
     }
   ],
   "blocoC": [
@@ -512,7 +468,7 @@
       "nome": "morador C",
       "apartamento": "12",
       "quantidade": 1,
-      "bloco": "Bloco C",
+      "bloco": "blocoC",
       "encomenda": [
         {
           "data_recebida": "2022-06-21",
@@ -521,6 +477,20 @@
         }
       ],
       "id": 1
+    },
+    {
+      "nome": "blocoC",
+      "apartamento": "78",
+      "quantidade": 1,
+      "bloco": "blocoC",
+      "encomenda": [
+        {
+          "data_recebida": "2023-07-01",
+          "codigo": 55,
+          "receptor": "GH"
+        }
+      ],
+      "id": 2
     }
   ],
   "encomendaEntregadaBlocoA": [
@@ -711,6 +681,31 @@
       "codigo": 7888888888,
       "data_entregada": "2022-03-21",
       "id": 32
+    },
+    {
+      "nome": "Okorie nwokeoma",
+      "data_entregada": "2023-07-15",
+      "id": 33
+    },
+    {
+      "nome": "Lekwuwa nwokeoma",
+      "data_entregada": "2023-07-15",
+      "id": 34
+    },
+    {
+      "nome": "Okorie nwokeoma",
+      "data_entregada": "2023-07-15",
+      "id": 35
+    },
+    {
+      "nome": "David nwokeoma",
+      "data_entregada": "2023-07-15",
+      "id": 36
+    },
+    {
+      "nome": "David nwokeoma",
+      "data_entregada": "2023-07-15",
+      "id": 37
     }
   ],
   "encomendaEntregadaBlocoB": [
@@ -725,6 +720,24 @@
       "codigo": 788,
       "data_entregada": "2022-03-20",
       "id": 1
+    },
+    {
+      "nome": "nbbbb",
+      "codigo": 78,
+      "data_entregada": "2023-07-15",
+      "id": 2
+    },
+    {
+      "nome": "Delilah",
+      "codigo": 909900,
+      "data_entregada": "2023-07-15",
+      "id": 3
+    },
+    {
+      "nome": "more",
+      "codigo": 44444,
+      "data_entregada": "2023-07-15",
+      "id": 4
     }
   ],
   "encomendaEntregadaBlocoC": [
@@ -770,6 +783,12 @@
       "senha": "david",
       "email": "davidokorie59@gmail.com",
       "id": 1
+    },
+    {
+      "nome": "michele",
+      "senha": "michele",
+      "email": "micky@gmail.com",
+      "id": 2
     }
   ]
 }

@@ -3,10 +3,10 @@
 
 
 <div class="search-box">
-  <input class="search-txt" type="text" placeholder="Número do apartamento" v-model="aparta"/>
+  <input class="search-txt" type="text" placeholder="ex: 100A" v-model="aparta"/>
   <router-link
               class="search-btn"
-              :to="{ name: 'Encomenda', query: { apartamento: this.aparta, bloco : this.bloco } }"
+              :to="{ name: 'Encomenda', query: { apartamento: this.getApa, bloco :`bloco${this.getBlock}` } }"
               >
               <i class="fa fa-search"></i> 
   </router-link>
@@ -19,12 +19,19 @@
 
 <script>
 export default {
-  props:["bloco"],
   data() {
     return {
       aparta:""
     }
   },
+  computed:{
+    getApa(){
+      return this.aparta.slice(0,-1)
+    },
+    getBlock(){
+      return this.aparta.slice(-1).toUpperCase()
+    }
+  }
   
 
 }

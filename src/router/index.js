@@ -2,8 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import BlocoA from "../components/BlocoA.vue";
-import BlocoB from "../components/BlocoB.vue";
-import BlocoC from "../components/BlocoC.vue";
+// import BlocoB from "../components/BlocoB.vue";
+// import BlocoC from "../components/BlocoC.vue";
 import Dashboard from "../components/Dashboard.vue";
 import Login from "../components/Login.vue";
 import SignUp from "../components/SignUp.vue";
@@ -18,20 +18,20 @@ const routes = [
     component: Home,
   },
   {
-    path: "/blocoA",
+    path: "/cadastrar",
     name: "BlocoA",
     component: BlocoA,
   },
-  {
-    path: "/blocoB",
-    name: "BlocoB",
-    component: BlocoB,
-  },
-  {
-    path: "/blocoC",
-    name: "BlocoC",
-    component: BlocoC,
-  },
+  // {
+  //   path: "/blocoB",
+  //   name: "BlocoB",
+  //   component: BlocoB,
+  // },
+  // {
+  //   path: "/blocoC",
+  //   name: "BlocoC",
+  //   component: BlocoC,
+  // },
   {
     path: "/dashboard",
     name: "Dashboard",

@@ -57,7 +57,7 @@ export default {
 
    methods: {
     async login(){
-        let res = await axios.get(`http://localhost:3000/users?nome=${this.nome}&&senha=${this.senha}`)
+        let res = await axios.get(`http://localhost:3001/users?nome=${this.nome}&&senha=${this.senha}`)
          if(res.status==200 && res.data.length>0){
            localStorage.setItem("user-info", JSON.stringify(res.data[0]))
            this.$router.push({name:'Dashboard'})

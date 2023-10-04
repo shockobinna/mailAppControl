@@ -1,7 +1,7 @@
 import axios from 'axios'
-const baseAURL = "http://localhost:3000/blocoA";
-const baseBURL = "http://localhost:3000/blocoB";
-const baseCURL = "http://localhost:3000/blocoC";
+const baseAURL = "http://localhost:3001/blocoA";
+const baseBURL = "http://localhost:3001/blocoB";
+const baseCURL = "http://localhost:3001/blocoC";
 
 export const getBlocoA =({commit}) =>{
     axios.get(baseAURL).then(response =>{
@@ -22,7 +22,7 @@ export const getBlocoC =({commit}) =>{
 }
 
 export const getEncomendaA =({commit},payload)=>{
- axios.get(`http://localhost:3000/blocoA?apartamento=${payload.x}&&bloco=${payload.y}`)
+ axios.get(`http://localhost:3001/blocoA?apartamento=${payload.x}&&bloco=${payload.y}`)
 .then(response =>{
     commit("SET_ENCOMENDAA", response.data)
     console.log(response.data)
@@ -30,7 +30,7 @@ export const getEncomendaA =({commit},payload)=>{
 }
 
  export const getEncomendaB =({commit},payload)=>{
-    axios.get(`http://localhost:3000/blocoB?apartamento=${payload.x}&&bloco=${payload.y}`)
+    axios.get(`http://localhost:3001/blocoB?apartamento=${payload.x}&&bloco=${payload.y}`)
     .then(response =>{
         commit("SET_ENCOMENDAB", response.data)
         console.log(response.data)
@@ -38,45 +38,57 @@ export const getEncomendaA =({commit},payload)=>{
     }
 
 export const getEncomendaC =({commit},payload)=>{
-        axios.get(`http://localhost:3000/blocoC?apartamento=${payload.x}&&bloco=${payload.y}`)
+        axios.get(`http://localhost:3001/blocoC?apartamento=${payload.x}&&bloco=${payload.y}`)
         .then(response =>{
             commit("SET_ENCOMENDAC", response.data)
             console.log(response.data)
         })
         }
 
-export const postEncomendaA =(context,payload)=>{
-    axios.post("http://localhost:3000/blocoA",payload)
-    .then( response =>{
-        if(response.data.success) 
-        // commit('SET_BLOCOA',response.data)
-        // context.commit("getBlocoA", response.data)
-        console.log(response.data)
-    })
-    }
+// export const postEncomendaA =(context,payload)=>{
+//     axios.post("http://localhost:3001/blocoA",payload)
+//     .then( response =>{
+//         if(response.data.success) 
+//         // commit('SET_BLOCOA',response.data)
+//         // context.commit("getBlocoA", response.data)
+//         console.log(response.data)
+//     })
+//     }
 
-export const postEncomendaB =(context,payload)=>{
-    axios.post("http://localhost:3000/blocoB",payload)
-    .then( response =>{
-        if(response.data.success) 
-        // commit('SET_BLOCOA',response.data)
-        // context.commit("getBlocoA", response.data)
-        console.log(response.data)
-    })
-    }
+// export const postEncomendaB =(context,payload)=>{
+//     axios.post("http://localhost:3001/blocoB",payload)
+//     .then( response =>{
+//         if(response.data.success) 
+//         // commit('SET_BLOCOA',response.data)
+//         // context.commit("getBlocoA", response.data)
+//         console.log(response.data)
+//     })
+//     }
 
-export const postEncomendaC =(context,payload)=>{
-    axios.post("http://localhost:3000/blocoC",payload)
-    .then( response =>{
-        if(response.data.success) 
-        // commit('SET_BLOCOA',response.data)
-        // context.commit("getBlocoA", response.data)
-        console.log(response.data)
-    })
-    }
+// export const postEncomendaC =(context,payload)=>{
+//     axios.post("http://localhost:3001/blocoC",payload)
+//     .then( response =>{
+//         if(response.data.success) 
+//         // commit('SET_BLOCOA',response.data)
+//         // context.commit("getBlocoA", response.data)
+//         console.log(response.data)
+//     })
+//     }
+
+    export const postEncomenda =(context,payload)=>{
+        console.log(payload.bloco)
+        axios.post(`http://localhost:3001/${payload.bloco}`,payload)
+        .then( response =>{
+            if(response.data.success) 
+            // commit('SET_BLOCOA',response.data)
+            // context.commit("getBlocoA", response.data)
+            console.log(response.data)
+        })
+        }
+
 
 export const updateA =(context,payload)=>{
-    axios.put(`http://localhost:3000/blocoA/${payload.id}`,{
+    axios.put(`http://localhost:3001/blocoA/${payload.id}`,{
         nome: payload.nome,
         apartamento: payload.apartamento,
         quantidade: payload.quantidade,
@@ -98,7 +110,7 @@ export const updateA =(context,payload)=>{
     }
 
 export const updateB =(context,payload)=>{
-    axios.put(`http://localhost:3000/blocoB/${payload.id}`,{
+    axios.put(`http://localhost:3001/blocoB/${payload.id}`,{
         nome: payload.nome,
         apartamento: payload.apartamento,
         quantidade: payload.quantidade,
@@ -120,7 +132,7 @@ export const updateB =(context,payload)=>{
     }
 
 export const updateC =(context,payload)=>{
-    axios.put(`http://localhost:3000/blocoC/${payload.id}`,{
+    axios.put(`http://localhost:3001/blocoC/${payload.id}`,{
         nome: payload.nome,
         apartamento: payload.apartamento,
         quantidade: payload.quantidade,
@@ -141,31 +153,11 @@ export const updateC =(context,payload)=>{
     })
     }
 
-export const deleteA =(context,id)=>{
+export const deleteA =(context,payload)=>{
     // context.commit("DELETE_FROM_A",id)
-    axios.delete(`http://localhost:3000/blocoA/${id}`)
+    axios.delete(`http://localhost:3001/${payload.bloco}/${payload.id}`)
     .then( response =>{
         if(response.data.success) 
-        console.log(response.data)
-    })
-    }
-
-export const deleteB =(context,id)=>{
-    axios.delete(`http://localhost:3000/blocoB/${id}`)
-    .then( response =>{
-        if(response.data.success) 
-        // commit('SET_BLOCOA',response.data)
-        // context.commit("getBlocoA", response.data)
-        console.log(response.data)
-    })
-    }
-
-export const deleteC =(context,id)=>{
-    axios.delete(`http://localhost:3000/blocoC/${id}`)
-    .then( response =>{
-        if(response.data.success) 
-        // commit('SET_BLOCOA',response.data)
-        // context.commit("getBlocoA", response.data)
         console.log(response.data)
     })
     }

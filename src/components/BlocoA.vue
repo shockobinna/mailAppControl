@@ -18,7 +18,7 @@
             <div class="card mt-5 mb-5 bg-dark">
               <div class="card-body">
                 <h4 class="card-title text-center text-primary">
-                  CADASTRAR ENCOMENDA: BLOCO A
+                  CADASTRAR ENCOMENDA
                 </h4>
                 <hr />
                 <div class="form-group text-primary">
@@ -45,6 +45,14 @@
                     v-model="aparta"
                     
                   />
+                </div>
+                <div class="form-group text-primary">
+                  <label class="pr-1" for="apart">Bloco</label>
+                  <select class="form-select w-100"  v-model="bloco">
+                  <option value="blocoA">Bloco A</option>
+                  <option value="blocoB">Bloco B</option>
+                  <option value="blocoC">Bloco B</option>
+                </select>
                 </div>
                 <div class="form-group text-primary">
                   <label for="date">Data da Entrega</label>
@@ -127,7 +135,7 @@
         <div class="col-4">
           <div class="row">
             <h5>Pesquise a encomenda para editar ou deletar</h5>
-            <animated-search-bar :bloco="this.bloco"/>
+            <animated-search-bar/>
           </div>
             
             
@@ -150,7 +158,7 @@ export default {
       morador: "",
       aparta: "",
       quant: 1,
-      bloco:"Bloco A",
+      bloco:"",
       encomenda: [{
         data_recebida:"",
         codigo:"",
@@ -183,10 +191,11 @@ export default {
           },
         ],
       }
-      this.$store.dispatch("postEncomendaA", payload)
+      this.$store.dispatch("postEncomenda", payload)
 
       this.morador="",
       this.aparta="",
+      this.bloco="",
       this.encomenda.data_recebida="",
       this.encomenda.codigo="",
       this.encomenda.receptor=""

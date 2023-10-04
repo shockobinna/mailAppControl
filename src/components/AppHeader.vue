@@ -25,17 +25,16 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
-          <li class="nav-item dropdown" :class="{active: $route.name==='blocoA'}">
+          <li class="nav-item" :class="{active: $route.name==='cadastrar'}">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link"
               href="#"
-              id="dropdownId"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Blocos</a
-            >
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              >
+              <router-link class="routerLink" to="/cadastrar">
+                  Cadastrar encomenda</router-link
+                ></a
+              >
+            <!-- <div class="dropdown-menu" aria-labelledby="dropdownId">
               <a class="dropdown-item" 
                 ><router-link class="routerLink" to="/blocoA" 
                   >Bloco A</router-link
@@ -51,7 +50,7 @@
                   >Bloco C</router-link
                 ></a
               >
-            </div>
+            </div> -->
           </li>
         </ul>
         <div class="d-flex justify-content-between">
@@ -105,5 +104,6 @@ export default {
   color: white;
 } */
 </style>
->
+
+
 <router-link to="/dashboard">Dashboard</router-link>
